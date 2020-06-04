@@ -72,3 +72,10 @@ C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\Test\obj\Debug\Test.c
 C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\Test\obj\Debug\Test.csproj.CopyComplete
 C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\Test\obj\Debug\Test.exe
 C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\Test\obj\Debug\Test.pdb
+C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\Test\bin\Debug\DevExpress.Data.v10.1.dll
+C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\Test\bin\Debug\DevExpress.Utils.v10.1.dll
+C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\Test\bin\Debug\DevExpress.XtraEditors.v10.1.dll
+C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\Test\bin\Debug\DevExpress.Data.v10.1.xml
+C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\Test\bin\Debug\DevExpress.Utils.v10.1.xml
+C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\Test\bin\Debug\DevExpress.XtraEditors.v10.1.xml
+C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\Test\obj\Debug\Test.MainForm.resources

@@ -53,3 +53,4 @@ C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\JControl\obj\Debug\JC
 C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\JControl\obj\Debug\JControl.csproj.CoreCompileInputs.cache
 C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\JControl\obj\Debug\JControl.dll
 C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\JControl\obj\Debug\JControl.pdb
+C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\JControl\obj\Debug\JControl.csprojAssemblyReference.cache

@@ -103,7 +103,6 @@ namespace JControl
         #endregion
 
 
-
         #region 全局属性
         //全局键值对
         private static List<string> JKeys = new List<string>();
@@ -114,10 +113,43 @@ namespace JControl
         }
 
 
+        /// <summary>
+        /// 允许拖拽移动控件
+        /// </summary>
+        public static bool JAllowDragMovement = true;
+        private int ChartXPos, ChartYPos;
+        private bool ChartMoveFlag;
 
-     
+        public void JDragMove_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (!JAllowDragMovement) return;
+            if (ChartMoveFlag)
+            {
+                Control c = sender as Control;
+                if (c != null)
+                {
+                    c.Left += Convert.ToInt16(e.X - ChartXPos);
+                    c.Top += Convert.ToInt16(e.Y - ChartYPos);
+                    this.BorderStyle = BorderStyle.FixedSingle;
+                }
+               
+            }
+        }
 
-         
+        public void JDragMove_MouseUp(object sender, MouseEventArgs e)
+        {
+            ChartMoveFlag = false;
+            this.BorderStyle = BorderStyle.None;
+        }
+
+        public void JDragMove_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (!JAllowDragMovement) return;
+            ChartMoveFlag = true;
+            ChartXPos = e.X;
+            ChartYPos = e.Y;
+        }
+
 
 
 
@@ -127,6 +159,7 @@ namespace JControl
         private static Font _ThemeFont = UserControl.DefaultFont;
         private static Color _ThemeForeColor = UserControl.DefaultForeColor;
 
+      
         public static Color ThemeColor
         {
            get {
@@ -163,6 +196,10 @@ namespace JControl
         public BaseControl()
         {
             InitializeComponent();
+
+            this.MouseMove += JDragMove_MouseMove;
+            this.MouseDown += JDragMove_MouseDown;
+            this.MouseUp += JDragMove_MouseUp;
         }
     }
 }

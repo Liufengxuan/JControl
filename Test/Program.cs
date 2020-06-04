@@ -15,7 +15,7 @@ namespace Test
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new JConveyorBelt());
+            Application.Run(new MainForm());
         }
     }
 }
