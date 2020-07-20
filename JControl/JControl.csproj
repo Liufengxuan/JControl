@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -78,6 +79,12 @@
     <Compile Include="JPipeSingle.Designer.cs">
       <DependentUpon>JPipeSingle.cs</DependentUpon>
     </Compile>
+    <Compile Include="JScrollingText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JScrollingText.Designer.cs">
+      <DependentUpon>JScrollingText.cs</DependentUpon>
+    </Compile>
     <Compile Include="Params.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
@@ -97,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JPipeSingle.resx">
       <DependentUpon>JPipeSingle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JScrollingText.resx">
+      <DependentUpon>JScrollingText.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

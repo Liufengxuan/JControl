@@ -28,10 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            JControl.Params.PipeSingleParams pipeSingleParams1 = new JControl.Params.PipeSingleParams();
-            JControl.Params.PipeSingleParams pipeSingleParams2 = new JControl.Params.PipeSingleParams();
-            JControl.Params.PipeSingleParams pipeSingleParams3 = new JControl.Params.PipeSingleParams();
-            JControl.Params.PipeSingleParams pipeSingleParams4 = new JControl.Params.PipeSingleParams();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.jButton1 = new JControl.JButton();
@@ -41,6 +38,7 @@
             this.jConveyorBelt2 = new JControl.JConveyorBelt();
             this.jConveyorBelt3 = new JControl.JConveyorBelt();
             this.jPipeSingle1 = new JControl.JPipeSingle();
+            this.jScrollingText1 = new JControl.JScrollingText();
             this.SuspendLayout();
             // 
             // button1
@@ -65,12 +63,13 @@
             // jButton1
             // 
             this.jButton1.BackColor = System.Drawing.Color.Empty;
+            this.jButton1.Font = null;
             this.jButton1.JBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(211)))), ((int)(((byte)(211)))));
             this.jButton1.JFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.jButton1.JForeColor = System.Drawing.Color.Black;
             this.jButton1.JText = "13";
             this.jButton1.JUseTheme = false;
-            this.jButton1.Location = new System.Drawing.Point(376, 232);
+            this.jButton1.Location = new System.Drawing.Point(270, 219);
             this.jButton1.Name = "jButton1";
             this.jButton1.Size = new System.Drawing.Size(87, 32);
             this.jButton1.TabIndex = 4;
@@ -92,6 +91,8 @@
             // jLabel1
             // 
             this.jLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.jLabel1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.jLabel1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.jLabel1.JFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.jLabel1.JForeColor = System.Drawing.SystemColors.ControlText;
             this.jLabel1.JMaskColor = System.Drawing.Color.Yellow;
@@ -157,22 +158,6 @@
             this.jPipeSingle1.JIsFlow = true;
             this.jPipeSingle1.JOpacity = 132;
             this.jPipeSingle1.JPipeColor = System.Drawing.Color.LimeGreen;
-            pipeSingleParams1.ControlDirection = JControl.Params.Direction.Up;
-            pipeSingleParams1.Id = 1;
-            pipeSingleParams1.Length = 200;
-            pipeSingleParams2.ControlDirection = JControl.Params.Direction.Right;
-            pipeSingleParams2.Id = 2;
-            pipeSingleParams2.Length = 80;
-            pipeSingleParams3.ControlDirection = JControl.Params.Direction.Down;
-            pipeSingleParams3.Id = 3;
-            pipeSingleParams3.Length = 150;
-            pipeSingleParams4.ControlDirection = JControl.Params.Direction.Left;
-            pipeSingleParams4.Id = 4;
-            pipeSingleParams4.Length = 60;
-            this.jPipeSingle1.JPipeSingleParams.Add(pipeSingleParams1);
-            this.jPipeSingle1.JPipeSingleParams.Add(pipeSingleParams2);
-            this.jPipeSingle1.JPipeSingleParams.Add(pipeSingleParams3);
-            this.jPipeSingle1.JPipeSingleParams.Add(pipeSingleParams4);
             this.jPipeSingle1.JPipeWidth = 13;
             this.jPipeSingle1.JStartPostion = 13;
             this.jPipeSingle1.JUseTheme = false;
@@ -181,11 +166,30 @@
             this.jPipeSingle1.Size = new System.Drawing.Size(179, 235);
             this.jPipeSingle1.TabIndex = 8;
             // 
+            // jScrollingText1
+            // 
+            this.jScrollingText1.BackColor = System.Drawing.Color.Transparent;
+            this.jScrollingText1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.jScrollingText1.JFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.jScrollingText1.JForeColor = System.Drawing.SystemColors.ControlText;
+            this.jScrollingText1.JIsScrolling = true;
+            this.jScrollingText1.JMaskColor = System.Drawing.Color.Yellow;
+            this.jScrollingText1.JOffsetLength = 2;
+            this.jScrollingText1.JOpacity = 60;
+            this.jScrollingText1.JScrollingSpeed = 100;
+            this.jScrollingText1.JText = "d哈哈哈哈";
+            this.jScrollingText1.JUseTheme = false;
+            this.jScrollingText1.Location = new System.Drawing.Point(521, 99);
+            this.jScrollingText1.Name = "jScrollingText1";
+            this.jScrollingText1.Size = new System.Drawing.Size(296, 85);
+            this.jScrollingText1.TabIndex = 9;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1283, 693);
+            this.Controls.Add(this.jScrollingText1);
             this.Controls.Add(this.jPipeSingle1);
             this.Controls.Add(this.jled1);
             this.Controls.Add(this.jLabel1);
@@ -213,5 +217,6 @@
         private JControl.JConveyorBelt jConveyorBelt2;
         private JControl.JConveyorBelt jConveyorBelt3;
         private JControl.JPipeSingle jPipeSingle1;
+        private JControl.JScrollingText jScrollingText1;
     }
 }

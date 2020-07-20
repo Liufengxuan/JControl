@@ -117,21 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="jPipeSingle1.JPipeSingleParams" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAI4BSkNvbnRyb2wsIFZlcnNpb249MS4wLjAuMCwgQ3VsdHVyZT1u
-        ZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsXV0sIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1
-        bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQwDAAAAP0pDb250cm9s
-        LCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAA
-        Q1N5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbSkNvbnRyb2wuUGFyYW1zLlBpcGVTaW5n
-        bGVQYXJhbXMDAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgQAACJKQ29udHJvbC5QYXJhbXMuUGlwZVNp
-        bmdsZVBhcmFtc1tdAwAAAAgIAgAAAAkEAAAABAAAAF4BAAAHBAAAAAABAAAABAAAAAQgSkNvbnRyb2wu
-        UGFyYW1zLlBpcGVTaW5nbGVQYXJhbXMDAAAACQUAAAAJBgAAAAkHAAAACQgAAAAFBQAAACBKQ29udHJv
-        bC5QYXJhbXMuUGlwZVNpbmdsZVBhcmFtcwMAAAATPElkPmtfX0JhY2tpbmdGaWVsZBc8TGVuZ3RoPmtf
-        X0JhY2tpbmdGaWVsZCE8Q29udHJvbERpcmVjdGlvbj5rX19CYWNraW5nRmllbGQAAAQICBlKQ29udHJv
-        bC5QYXJhbXMuRGlyZWN0aW9uAwAAAAMAAAABAAAAyAAAAAX3////GUpDb250cm9sLlBhcmFtcy5EaXJl
-        Y3Rpb24BAAAAB3ZhbHVlX18ACAMAAAAAAAAAAQYAAAAFAAAAAgAAAFAAAAAB9v////f///8DAAAAAQcA
-        AAAFAAAAAwAAAJYAAAAB9f////f///8BAAAAAQgAAAAFAAAABAAAADwAAAAB9P////f///8CAAAACw==
-</value>
-  </data>
 </root>

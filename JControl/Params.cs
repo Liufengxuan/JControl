@@ -23,6 +23,7 @@ namespace JControl.Params
         LowerRight=8
         
     }
+    [Serializable]
     public class PipeSingleParams:IComparable
     {
         [Description("序号"), Browsable(true)]
@@ -31,6 +32,8 @@ namespace JControl.Params
         public int Length { get; set; }
         [Description("方向"), Browsable(true)]
         public Direction ControlDirection { get; set; }
+
+
 
         public static bool operator ==(PipeSingleParams p1, PipeSingleParams p2)
        {

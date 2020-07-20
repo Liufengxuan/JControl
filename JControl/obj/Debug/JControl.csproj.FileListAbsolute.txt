@@ -54,3 +54,15 @@ C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\JControl\obj\Debug\JC
 C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\JControl\obj\Debug\JControl.dll
 C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\JControl\obj\Debug\JControl.pdb
 C:\Users\LFX\Desktop\cg300\自定义控件\JControl-master\JControl\obj\Debug\JControl.csprojAssemblyReference.cache
+C:\Users\LFX\Desktop\JControl-master\iiuw\JControl\bin\Debug\JControl.dll
+C:\Users\LFX\Desktop\JControl-master\iiuw\JControl\bin\Debug\JControl.pdb
+C:\Users\LFX\Desktop\JControl-master\iiuw\JControl\obj\Debug\JControl.BaseControl.resources
+C:\Users\LFX\Desktop\JControl-master\iiuw\JControl\obj\Debug\JControl.JButton.resources
+C:\Users\LFX\Desktop\JControl-master\iiuw\JControl\obj\Debug\JControl.JLabel.resources
+C:\Users\LFX\Desktop\JControl-master\iiuw\JControl\obj\Debug\JControl.JLED.resources
+C:\Users\LFX\Desktop\JControl-master\iiuw\JControl\obj\Debug\JControl.JPipeSingle.resources
+C:\Users\LFX\Desktop\JControl-master\iiuw\JControl\obj\Debug\JControl.JScrollingText.resources
+C:\Users\LFX\Desktop\JControl-master\iiuw\JControl\obj\Debug\JControl.csproj.GenerateResource.cache
+C:\Users\LFX\Desktop\JControl-master\iiuw\JControl\obj\Debug\JControl.csproj.CoreCompileInputs.cache
+C:\Users\LFX\Desktop\JControl-master\iiuw\JControl\obj\Debug\JControl.dll
+C:\Users\LFX\Desktop\JControl-master\iiuw\JControl\obj\Debug\JControl.pdb

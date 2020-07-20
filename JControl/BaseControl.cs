@@ -27,7 +27,12 @@ namespace JControl
 
         #region 公共方法
         internal Dictionary<string, object> keyValuePairs = new Dictionary<string, object>();
+        public SizeF GetFontSize(Graphics g, Font f, string s)
+        {
+            SizeF sizeF = g.MeasureString(s, f);
+            return sizeF;
 
+        }
 
         /// <summary>
         /// 根据键获取Tag
